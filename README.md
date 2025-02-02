@@ -7,14 +7,53 @@ Welcome to the **Text Cipher** project! This JavaFX application is designed to t
 - **Interactive GUI**: The program provides a clean and intuitive interface for users to input text and see the encrypted result instantly.
 - **Learning Opportunity**: This project is a great way to practice JavaFX, string manipulation, and event-driven programming.
 
-## How It Works
-1. **Input Your Message**: Type any text into the provided text field.
-2. **Encrypt**: Click the **Encrypt** button to transform your message using the following rules:
-   - Uppercase letters **A-M** become lowercase.
-   - Uppercase letters **N-Z** turn into `$` followed by a number (e.g., `N` becomes `$0`).
-   - Lowercase letters **a-m** are replaced with `*`, `^`, or `#` based on divisibility rules.
-   - Lowercase letters **n-z** are shifted forward in the alphabet by the length of the input string.
-   - Non-alphabetic characters remain unchanged.
+### **Program Overview**
+- The program takes user input and applies a set of encryption rules to transform the text.
+- The encrypted message is displayed in the GUI, making it easy to see the results instantly.
+
+---
+
+### **How to Start**
+1. **Launch the Program**:
+   - Run the `TextCipher.java` file to start the application.
+   - The program will display a graphical user interface (GUI) with an input field and an **Encrypt** button.
+
+2. **Enter Your Message**:
+   - Type your message into the **Input Text** field.
+
+3. **Encrypt the Message**:
+   - Click the **Encrypt** button to transform your message into a secret code.
+
+---
+
+### **Encryption Rules**
+The program uses the following rules to encrypt the text:
+
+1. **Uppercase Letters (A-M)**:
+   - Converted to lowercase.
+   - Example: `A` → `a`, `L` → `l`.
+
+2. **Uppercase Letters (N-Z)**:
+   - Replaced with `$` followed by a number (0-12).
+   - Example: `N` → `$0`, `O` → `$1`, `Z` → `$12`.
+
+3. **Lowercase Letters (a-m)**:
+   - Replaced with `*`, `^`, or `#` based on divisibility rules:
+     - If divisible by 3: `*`
+     - If remainder 1 when divided by 3: `^`
+     - If remainder 2 when divided by 3: `#`
+   - Example: `a` → `*`, `b` → `^`, `c` → `#`.
+
+4. **Lowercase Letters (n-z)**:
+   - Shifted forward in the alphabet by the length of the input string.
+   - If the shift goes beyond `z`, it wraps around to the beginning of the alphabet.
+   - Example: For a 5-letter input, `n` → `s`, `y` → `d`.
+
+5. **Non-Alphabetic Characters**:
+   - Remain unchanged.
+   - Example: `!`, ` ` (space), `1`, etc.
+
+---
 
 ## Example
 Input: `This TExT is a-TESt`  
