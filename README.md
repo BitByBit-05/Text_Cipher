@@ -1,23 +1,27 @@
-# Text_Cipher
+# Text Cipher - CS1073 Assignment #10
 
-This JavaFX application encrypts user-input text based on specific rules. The program provides a graphical user interface (GUI) for users to enter a message and see the encrypted result.
+Welcome to the **Text Cipher** project! This JavaFX application is designed to transform any text into a secret encrypted message using a set of fun and unique rules. Whether you're a fan of cryptography or just love playing with text, this project will pique your interest.
 
-## Features
-- **Input Field**: Users can type a message into a labeled text field.
-- **Encrypt Button**: Pressing this button encrypts the message using the following rules:
-  1. Uppercase letters **A-M** are converted to lowercase.
-  2. Uppercase letters **N-Z** are replaced with `$` followed by a number (0-12).
-  3. Lowercase letters **a-m** are replaced with `*`, `^`, or `#` based on divisibility rules.
-  4. Lowercase letters **n-z** are shifted forward in the alphabet by the length of the input string.
-  5. Non-alphabetic characters remain unchanged.
+## Why This Project is Cool
+- **Creative Encryption**: The encryption rules are designed to be both logical and quirky, making the output unpredictable and fun to explore.
+- **Interactive GUI**: The program provides a clean and intuitive interface for users to input text and see the encrypted result instantly.
+- **Learning Opportunity**: This project is a great way to practice JavaFX, string manipulation, and event-driven programming.
 
-## How to Use
-1. Run the `TextCipher.java` file.
-2. Enter your message in the text field.
-3. Click the **Encrypt** button to see the encrypted message.
+## How It Works
+1. **Input Your Message**: Type any text into the provided text field.
+2. **Encrypt**: Click the **Encrypt** button to transform your message using the following rules:
+   - Uppercase letters **A-M** become lowercase.
+   - Uppercase letters **N-Z** turn into `$` followed by a number (e.g., `N` becomes `$0`).
+   - Lowercase letters **a-m** are replaced with `*`, `^`, or `#` based on divisibility rules.
+   - Lowercase letters **n-z** are shifted forward in the alphabet by the length of the input string.
+   - Non-alphabetic characters remain unchanged.
+
+## Example
+Input: `Hello World!`  
+Output: `^#**L $6**L#`
 
 ## Screenshots
-Below are sample outputs of the program:
+Here’s what the program looks like in action:
 
 ### Initial Launch
 ![Initial Launch](https://github.com/your-username/BlackJack_Game/raw/main/textcipher_initial.png)
@@ -25,14 +29,11 @@ Below are sample outputs of the program:
 ### After Encryption
 ![After Encryption](https://github.com/your-username/BlackJack_Game/raw/main/textcipher_encrypted.png)
 
-## Code Structure
-- **TextCipher.java**: Main JavaFX application file.
-- **Images**: Screenshots of the program in action.
-
 ---
 
-## Requirements
-- JavaFX must be installed and configured.
-- Ensure the images are placed in the correct directory for the `README.md` to display them properly.
+## Try It Yourself
+1. Clone the repository.
+2. Run the `TextCipher.java` file.
+3. Enter your message and watch it transform into a secret code!
 
 ---
