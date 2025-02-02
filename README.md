@@ -13,18 +13,6 @@ Welcome to the **Text Cipher** project! This JavaFX application is designed to t
 
 ---
 
-### **How to Start**
-1. **Launch the Program**:
-   - Run the `TextCipher.java` file to start the application.
-   - The program will display a graphical user interface (GUI) with an input field and an **Encrypt** button.
-
-2. **Enter Your Message**:
-   - Type your message into the **Input Text** field.
-
-3. **Encrypt the Message**:
-   - Click the **Encrypt** button to transform your message into a secret code.
-
----
 
 ### **Encryption Rules**
 The program uses the following rules to encrypt the text:
