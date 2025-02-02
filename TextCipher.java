@@ -11,7 +11,7 @@ import java.text.NumberFormat;
  This class represents a
  text cipher GUI to encrypt 
  messages.
- @author Ayush Ahir 3789357
+ @author Ayush Ahir
 */
 public class TextCipher extends Application{
 
