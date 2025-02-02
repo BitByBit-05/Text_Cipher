@@ -1,4 +1,4 @@
-# Text Cipher - CS1073 Assignment #10
+# Text_Cipher
 
 Welcome to the **Text Cipher** project! This JavaFX application is designed to transform any text into a secret encrypted message using a set of fun and unique rules. Whether you're a fan of cryptography or just love playing with text, this project will pique your interest.
 
