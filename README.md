@@ -27,7 +27,9 @@ Here’s what the program looks like in action:
 ![Initial Launch](https://github.com/BitByBit-05/Text_Cipher/blob/main/Initial.png?raw=true)
 
 ### After Encryption
-![After Encryption](https://github.com/your-username/BlackJack_Game/raw/main/textcipher_encrypted.png)
+| Example 1 | Example 2 |
+|---------|---------|
+| ![Image 1](https://github.com/your-username/repo-name/raw/main/image1.png) | ![Image 2](https://github.com/your-username/repo-name/raw/main/image2.png) |
 
 ---
 
