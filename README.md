@@ -29,7 +29,7 @@ Here’s what the program looks like in action:
 ### After Encryption
 | Example 1 | Example 2 |
 |---------|---------|
-| ![Image 1](https://github.com/your-username/repo-name/raw/main/image1.png) | ![Image 2](https://github.com/your-username/repo-name/raw/main/image2.png) |
+| ![Image 1](https://github.com/BitByBit-05/Text_Cipher/blob/main/Output1.png?raw=true) | ![Image 2](https://github.com/your-username/repo-name/raw/main/image2.png) |
 
 ---
 
