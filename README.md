@@ -24,7 +24,7 @@ Output: `$6#*l $6eq$6 *l ^-$6e$5m`
 Here’s what the program looks like in action:
 
 ### Initial Launch
-![Initial Launch](https://github.com/your-username/BlackJack_Game/raw/main/textcipher_initial.png)
+![Initial Launch](https://github.com/BitByBit-05/Text_Cipher/blob/main/Initial.png?raw=true)
 
 ### After Encryption
 ![After Encryption](https://github.com/your-username/BlackJack_Game/raw/main/textcipher_encrypted.png)
