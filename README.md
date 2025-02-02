@@ -17,8 +17,8 @@ Welcome to the **Text Cipher** project! This JavaFX application is designed to t
    - Non-alphabetic characters remain unchanged.
 
 ## Example
-Input: `Hello World!`  
-Output: `^#**L $6**L#`
+Input: `This TExT is a-TESt`  
+Output: `$6#*l $6eq$6 *l ^-$6e$5m`
 
 ## Screenshots
 Here’s what the program looks like in action:
